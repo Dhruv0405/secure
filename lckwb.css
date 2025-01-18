@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgba(255, 255, 255, 0.8);
+}
+.box{
+width: 100%;
+height: 100%;
+background-image: url(lockimg.png);
+background-size: 100%;
+background-position: center;
+overflow: hidden;
+}
+.br{
+width: 100%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: left;
+flex-wrap: wrap;
+overflow: hidden;
+backdrop-filter: blur(50px);
+}
+.logo{
+width: 25%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+font-size: 25px;
+font-weight: 700;
+}
+.nv{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+font-size: 18px;
+font-weight: 700;
+margin-left: 20%;
+}
+.nvtb{
+margin: 15px;
+cursor: pointer;
+transition: 0.5s;
+}
+.nvtb:hover{
+transition: 0.5s;
+color: blue;
+}
+.cnbx{
+width: 100%;
+height: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+backdrop-filter: blur(50px);
+}
+.cn1{
+width: 40%;
+height: 75%;
+margin-left: 10%;
+display: flex;
+align-items: center;
+justify-content: left;
+flex-wrap: wrap;
+}
+.cn2{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: right;
+flex-wrap: wrap;
+overflow: hidden;
+}
+.cnln{
+padding-left: 50px;
+font-size: 80px;
+font-weight: 700;
+}
+.cnln:nth-child(2){
+padding-left: 50px;
+font-size: 80px;
+font-weight: 700;
+transform: translateY(40px);
+}
+.cnsbln{
+padding-right: 50px;
+padding-left: 50px;
+font-size: 18px;
+font-weight: 700;
+transform: translateY(30px);
+}
+.cnabtln{
+padding-left: 50px;
+padding-right: 50px;
+font-size: 18px;
+transform: translateY(-10px);
+font-weight: 700;
+}
+.cnbtn{
+margin-left: 50px;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+font-size: 20px;
+font-weight: 700;
+border-radius: 50px;
+border: 2px solid white;
+cursor: pointer;
+transition: 0.5s;
+}
+.cnbtn:hover{
+transition: 0.5s;
+background: white;
+color: black;
+}
+img{
+height: 100%;
+border-top-left-radius: 300px;
+transform: translateY(50px);
+}
+a{
+text-decoration: none;
+color: white;
+}
+.smbox{
+position: absolute;
+width: 70px;
+height: 150px;
+margin-right: 10px;
+z-index: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 1;
+transform: translateY(230px);
+}
+.sm{
+width: 30px;
+height: 30px;
+border-radius: 50px;
+margin: 10px;
+z-index: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+color: white;
+cursor: pointer;
+transition: 0.3s;
+}
+.sm:hover{
+color: blue;
+transform: translateX(-10px);
+transition: 0.3s;
+}
+@media only screen and (max-width:1000px){
+    .cn1{
+        width: 100%;
+        height: 40%;
+    }
+    .cn2{
+        width: 100%;
+        height: 60%;
+    }
+    .cnsbln{
+        width: 70%;
+        padding-right: 80px;
+        padding-left: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        }
+        .smbox{
+        transform: scale(2);
+        }
+}
